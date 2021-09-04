@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-link-preview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gatsby Remark plugin to embed Notion-like card UI about link.",
   "main": "index.js",
   "scripts": {
