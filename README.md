@@ -2,30 +2,16 @@
   <img src="./assets/logo.png" width="480px" />
 </div>
 
-Gatsby Remark plugin to embed card about link.
+Gatsby Remark plugin to embed Notion-like card UI about link.
 
-> 👀 You can preview the description of the link!
-
-[![Build Status](https://travis-ci.org/JaeYeopHan/gatsby-remark-link-card.svg?branch=master)](https://travis-ci.org/JaeYeopHan/gatsby-remark-link-card)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![npm version](https://badge.fury.io/js/gatsby-remark-link-card.svg)](https://badge.fury.io/js/gatsby-remark-link-card)
-
-<p>
-  <a href="https://twitter.com/JbeeLjyhanll">
-    <img alt="Twitter: JbeeLjyhanll" src="https://img.shields.io/twitter/follow/JbeeLjyhanll.svg?style=social" target="_blank" />
-  </a>
-</p>
-
-## 🗂 Use Case
-
-- [gatsby-starter-bee](https://github.com/JaeYeopHan/gatsby-starter-bee)
+> This is a fork from [gatsby-remark-link-card](https://github.com/JaeYeopHan/gatsby-remark-link-card), 👀 You can preview the description of the link!
 
 ## 🚚 Install
 
 ```
-$ npm install --save gatsby-remark-link-card
+$ npm install --save gatsby-remark-link-preview
 # or
-$ yarn add gatsby-remark-link-card
+$ yarn add gatsby-remark-link-preview
 ```
 
 ## 🚀 How to use
@@ -35,7 +21,7 @@ $ yarn add gatsby-remark-link-card
 ### in Markdown
 
 ```md
-[$card](https://github.com/JaeYeopHan/gatsby-remark-link-card)
+[$card](https://github.com/lichin-lin/gatsby-remark-link-preview/)
 ```
 
 ### with Config
@@ -48,7 +34,7 @@ plugins: [
     options: {
       plugins: [
         {
-          resolve: `gatsby-remark-link-card`,
+          resolve: `gatsby-remark-link-preview`,
           options: {
             //...
           }
@@ -70,21 +56,16 @@ plugins: [
 
 ## Author
 
-👤 **JaeYeopHan (Jbee)**
+👤 **Lichin Lin**
 
-- Github: [@JaeYeopHan](https://github.com/JaeYeopHan)
-- Twitter: [@JbeeLjyhanll](https://twitter.com/JbeeLjyhanll)
+- Github: [@lichin-lin](https://github.com/lichin-lin)
+- Twitter: [@lichinlin](https://twitter.com/lichinlin)
 
 ## Inspiration
 
-[gatsby-remark-embedder](https://github.com/MichaelDeBoey/gatsby-remark-embedder)
+[gatsby-remark-link-card](https://github.com/JaeYeopHan/gatsby-remark-link-card)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-<div align="center">
-
-<sub><sup>Written by <a href="https://github.com/JaeYeopHan">@Jbee</a></sup></sub><small>✌</small>
-
-</div>

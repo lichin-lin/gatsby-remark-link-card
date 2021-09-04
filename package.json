@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-remark-link-card",
+  "name": "gatsby-remark-link-preview",
   "version": "0.0.0-development",
-  "description": "Gatsby Remark plugin to embed card about link",
+  "description": "Gatsby Remark plugin to embed Notion-like card UI about link.",
   "main": "index.js",
   "scripts": {
     "run:demo": "cd ./examples/using-remark-link-card && rm -rf .cache && npm start",
@@ -10,8 +10,9 @@
   "keywords": [
     "gatsby",
     "gatsby-plugin",
-    "link",
     "remark",
+    "link",
+    "notion",
     "card"
   ],
   "author": "",
@@ -25,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JaeYeopHan/gatsby-remark-link-card.git"
+    "url": "https://github.com/lichin-lin/gatsby-remark-link-card.git"
   }
 }

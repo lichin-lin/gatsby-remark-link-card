@@ -14,7 +14,7 @@ const defaultOption = {
     url: DEFAULT_URL,
   }
 }
-const ID = `gatsby-remark-link-card`
+const ID = `gatsby-remark-link-preview`
 
 module.exports = {
   defaultOption,
