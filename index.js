@@ -51,7 +51,7 @@ const getPageData = async (browser, url, timeout) => {
     await page.setDefaultNavigationTimeout(timeout);
     await page.goto(url)
 
-    const [title, description, ogImage, favicon] = await Promise.all([
+    const [titleData, descriptionData, ogImageData, faviconData] = await Promise.all([
       fetchData(page.title()),
       fetchData(page.$eval("meta[property='og:description']", (el) => el.content)),
       fetchData(page.$eval("meta[property='og:image']", (el) => el.content)),
