@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="./assets/logo.png" width="480px" />
-</div>
-
 Gatsby Remark plugin to embed Notion-like card UI about link.
 
 > This is a fork from [gatsby-remark-link-card](https://github.com/JaeYeopHan/gatsby-remark-link-card), 👀 You can preview the description of the link!
@@ -52,6 +48,7 @@ plugins: [
 | `delimiter`       | `string`                              | `$card`      | Title of the link to create a card |
 | `image`       | `string`                              | data-uri      | Default og image path |
 | `favicon`       | `string`                              | data-uri      | Default favicon image path |
+| `timeout`       | `number`                              | 30000      | Default timeout(ms) for puppeteer |
 | `error`       | `Object`                              | -      | Default config when error |
 
 ## Author
